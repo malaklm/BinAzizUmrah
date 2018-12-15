@@ -1,0 +1,837 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>بن عزيز عمرة</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Date Picker -->
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+
+	<div class="colorlib-loader"></div>
+
+	<div id="page">
+		<nav class="colorlib-nav" role="navigation">
+			<div class="top-menu">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-2">
+							<div id="colorlib-logo"></div>
+						</div>
+						<div class="col-xs-10 text-right menu-1">
+							<ul>
+								<li class="active"><a href="index.html">الرئيسية</a></li>
+								<li><a href="blog.html">المدونة</a></li>
+								<li><a href="about.html">عن بن عزيز عمرة</a></li>
+								<li><a href="contact.html">تواصل معنا</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<aside id="colorlib-hero">
+			<div class="flexslider">
+				<ul class="slides">
+
+			   	<li style="background-image: url(images/3.jpg);">
+
+			   		<div class="container-fluid">
+			   			<div class="row">
+				   			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
+				   				<div class="slider-text-inner text-center">
+				   				</div>
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>
+			  	</ul>
+		  	</div>
+		</aside>
+
+		<div id="colorlib-reservation">
+			<!-- <div class="container"> -->
+				<div class="row">
+					<div class="search-wrap">
+						<div class="container">
+							<ul class="nav nav-tabs">
+								<li class="active"><a data-toggle="tab" href="#flight"><i class="flaticon-plane"></i> رحلات الطيران</a></li>
+								<li><a data-toggle="tab" href="#hotel"><i class="flaticon-resort"></i> الفنادق</a></li>
+								<li><a data-toggle="tab" href="#car"><i class="flaticon-car"></i> استئجار سيارة</a></li>
+
+							</ul>
+						</div>
+						<div class="tab-content">
+							<div id="flight" class="tab-pane fade in active">
+								<form method="post" class="colorlib-form">
+				              	<div class="row">
+				              	 <div class="col-md-3">
+				              	 	<div class="form-group">
+				                    <label for="date">اين؟</label>
+				                    <div class="form-field">
+				                      <input type="text" id="location" class="form-control" placeholder="البحث عن مكان">
+				                    </div>
+				                  </div>
+				              	 </div>
+				                <div class="col-md-2">
+				                  <div class="form-group">
+				                    <label for="date">الذهاب</label>
+				                    <div class="form-field">
+				                      <i class="icon icon-calendar2"></i>
+				                      <input type="text" id="date" class="form-control date" placeholder="تاريخ الوصول">
+				                    </div>
+				                  </div>
+				                </div>
+				                <div class="col-md-2">
+				                  <div class="form-group">
+				                    <label for="date">العودة</label>
+				                    <div class="form-field">
+				                      <i class="icon icon-calendar2"></i>
+				                      <input type="text" id="date" class="form-control date" placeholder="تاريخ المغادرة">
+				                    </div>
+				                  </div>
+				                </div>
+				                <div class="col-md-3">
+				                  <div class="form-group">
+				                    <label for="guests">عدد الآفراد</label>
+				                    <div class="form-field">
+				                      <i class="icon icon-arrow-down3"></i>
+				                      <select name="people" id="people" class="form-control">
+				                        <option value="#">1</option>
+				                        <option value="#">2</option>
+				                        <option value="#">3</option>
+				                        <option value="#">4</option>
+				                        <option value="#">5+</option>
+				                      </select>
+				                    </div>
+				                  </div>
+				                </div>
+				                <div class="col-md-2">
+				                  <input type="submit" name="submit" id="submit" value="البحث عن رحلة" class="btn btn-primary btn-block">
+				                </div>
+				              </div>
+				            </form>
+				         </div>
+				         <div id="hotel" class="tab-pane fade">
+						      <form method="post" class="colorlib-form">
+				              	<div class="row">
+				              	 <div class="col-md-2">
+				              	 	<div class="booknow">
+				              	 		<h2>للحجز الآن</h2>
+														<h5 style="color:white;">بأفضل الأسعار</h5>
+
+				              	 	</div>
+				              	 </div>
+				                <div class="col-md-3">
+				                  <div class="form-group">
+				                    <label for="date">الدخول</label>
+				                    <div class="form-field">
+				                      <i class="icon icon-calendar2"></i>
+				                      <input type="text" id="date" class="form-control date" placeholder="تاريخ الدخول">
+				                    </div>
+				                  </div>
+				                </div>
+				                <div class="col-md-3">
+				                  <div class="form-group">
+				                    <label for="date">الخروج</label>
+				                    <div class="form-field">
+				                      <i class="icon icon-calendar2"></i>
+				                      <input type="text" id="date" class="form-control date" placeholder="تاريخ المغادرة">
+				                    </div>
+				                  </div>
+				                </div>
+				                <div class="col-md-2">
+				                  <div class="form-group">
+				                    <label for="guests">عدد الآفراد</label>
+				                    <div class="form-field">
+				                      <i class="icon icon-arrow-down3"></i>
+				                      <select name="people" id="people" class="form-control">
+				                        <option value="#">1</option>
+				                        <option value="#">2</option>
+				                        <option value="#">3</option>
+				                        <option value="#">4</option>
+				                        <option value="#">5+</option>
+				                      </select>
+				                    </div>
+				                  </div>
+				                </div>
+				                <div class="col-md-2">
+				                  <input type="submit" name="submit" id="submit" value="البحث عن فندق" class="btn btn-primary btn-block">
+				                </div>
+				              </div>
+				            </form>
+						   </div>
+						   <div id="car" class="tab-pane fade">
+						   	<form method="post" class="colorlib-form">
+				              	<div class="row">
+				              	 <div class="col-md-4">
+				              	 	<div class="form-group">
+				                    <label for="date">أين؟</label>
+				                    <div class="form-field">
+				                      <input type="text" id="location" class="form-control" placeholder="البحث عن مكان">
+				                    </div>
+				                  </div>
+				              	 </div>
+				                <div class="col-md-3">
+				                  <div class="form-group">
+				                    <label for="date">تاريخ الدخول</label>
+				                    <div class="form-field">
+				                      <i class="icon icon-calendar2"></i>
+				                      <input type="text" id="date" class="form-control date" placeholder="تاريخ الدخول">
+				                    </div>
+				                  </div>
+				                </div>
+				                <div class="col-md-3">
+				                  <div class="form-group">
+				                    <label for="date">تاريخ الخروج</label>
+				                    <div class="form-field">
+				                      <i class="icon icon-calendar2"></i>
+				                      <input type="text" id="date" class="form-control date" placeholder="تاريخ المغادرة">
+				                    </div>
+				                  </div>
+				                </div>
+				                <div class="col-md-2">
+				                  <input type="submit" name="submit" id="submit" value="البحث عن سيارة" class="btn btn-primary btn-block">
+				                </div>
+				              </div>
+				            </form>
+						   </div>
+
+			         </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</br> </br></br> </br>
+	<div class="image">
+	  <img alt="" src="images/back.png" />
+	  <div class="text2">
+	   	<h2 align="center">بن عزيز عمرة</h2>
+	  </div>
+	</div>
+</br></br> </br>
+		<table style="height: 200px; width: 830px;" align="center">
+	<tbody>
+	<tr>
+	<td style="width: 400.1px;">
+
+	<img src="images/bnaziz.png" alt="Italian Trulli">
+	</td>
+	<td style="width: 50px; text-align: right;">&nbsp;</td>
+	<td style="width: 400px; text-align: right;">
+	<h4 style="text-align: right;">بن عزيز للحج والعمرة لها نشاط بارز في خدمات حجاج الداخل، فهي واحدة من&nbsp;أفضل شركات حجاج الداخل بالمملكة ومن أوائل الشركات العاملة في هذا المجال لما تتمتع به من خبرة تزيد عن خمسة عشر عاماً مما ميزها بين الشركات لتقديمها أرقى الخدمات لحجاج بيت الله الحرام وهي من ضمن العشرة الشركات الأولى الخاضعة لخدمة حجاج الداخل</h4>
+	</td>
+	</tr>
+	</tbody>
+	</table>
+			<div class="container">
+				<div class="image">
+				  <img alt="" src="images/back.png" />
+				  <div class="text">
+				   	<h2 align="center">خدماتنا</h2>
+				  </div>
+				</div>
+			</br></br> </br>
+				<div class="row no-gutters">
+					<div class="col-md-4 animate-box text-center">
+						<div class="services">
+							<span class="icon">
+										<img class="icon" alt="" src="images/icon10.png" />
+							</span>
+							<h3>حجز مقاعد الطيران</h3>
+								</div>
+					</div>
+					<div class="col-md-4 animate-box text-center">
+						<div class="services">
+							<span class="icon">
+							<img class="icon" alt="" src="images/icon13.png" />
+							</span>
+							<h3>تأجير وسائل نقل من طائرات خاصة، باصات، سيارات</h3>
+						</div>
+					</div>
+					<div class="col-md-4 animate-box text-center">
+						<div class="services">
+							<span class="icon">
+										<img class="icon" alt="" src="images/icon12.png" />
+							</span>
+								<h3>الخدمات الأرضية في موسم الحج بالمشاعر المقدسة</h3>
+										</div>
+					</div>
+				</div>
+			</div>
+
+
+		<div class="container" style="position:relative;top:-150px;z-index:4;">
+			<div class="row no-gutters">
+				<div class="col-md-4 animate-box text-center">
+					<div class="services">
+						<span class="icon">
+	<img class="icon" alt="" src="images/icon15.png" />
+						</span>
+
+						<h3>الاستقبال في المطار</h3>
+							</div>
+				</div>
+				<div class="col-md-4 animate-box text-center">
+					<div class="services">
+						<span class="icon">
+						<img class="icon" alt="" src="images/icon14.png" />
+						</span>
+						<h3>خدمات خاصة لكبار الشخصيات</h3>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box text-center">
+					<div class="services">
+						<span class="icon">
+									<img class="icon" alt="" src="images/icon11.png" />
+
+						</span>
+						<h3>حجز الفنادق</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container" style="position:relative;top:-300px;z-index:4;">
+			<div class="row no-gutters">
+				<div class="col-md-4 animate-box text-center">
+					<div class="services">
+						<span class="icon">
+	<img class="icon" alt="" src="images/icon18.png" />
+						</span>
+						<h3>خدمات لوجستية</h3>
+							</div>
+				</div>
+				<div class="col-md-4 animate-box text-center">
+					<div class="services">
+						<span class="icon">
+	<img class="icon" alt="" src="images/icon17.png" />
+						</span>
+						<h3>توريدات غذائية</h3>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box text-center">
+					<div class="services">
+						<span class="icon">
+						<img class="icon" alt="" src="images/icon16.png" />
+						</span>
+						<h3>مستلزمات وهدايا للحاج والمعتمر</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-intro" class="intro-img" style="background-image: url(images/cover-img-1.jpg);position:relative;top:-300px;z-index:4;" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 animate-box">
+
+						<div class="video-wrap">
+							<div class="video colorlib-video" style="background-image: url(images/img_bg_2.jpg);position:relative;top:-50px;">
+								<a href="#" class="popup-vimeo"><i class="icon-video"></i></a>
+								<div class="video-overlay"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box" >
+						<div class="intro-desc">
+							<div class="text-salebox">
+								<div class="text-lefts">
+									<div class="sale-box">
+										<div class="sale-box-top">
+											<h2 class="number">30</h2>
+											<span class="sup-1">%</span>
+											<span class="sup-2">تخفيض</span>
+										</div>
+										<h2 class="text-sale">عرض الشهر</h2>
+									</div>
+								</div>
+								<div class="text-rights">
+									<h3 class="title"style="text-align:right;">سارع بالحجز الآن</h3>
+									<p style="text-align: right;">
+								</br>	رحلة لشخصين </br>
+					شاملة تذاكر الطيران
+					</br>
+					زيارة المسجد الحرام </br>
+					زيارة المسجد النبوي </br>
+					رحلة للأماكن التاريخية في مكة
+					</p>
+									<p><a href="#" class="btn btn-primary">احجز الآن</a> </p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container" style="position:relative;top:-300px;z-index:4;">
+			<div class="image">
+				<img alt="" src="images/back.png" />
+				<div class="text">
+					<h2 align="center">شركاء النجاح</h2>
+				</div>
+			</div>
+		</br></br> </br>
+			<div class="row no-gutters">
+				<div class="col-md-6 animate-box text-center">
+					<div class="services">
+						<span class="icon">
+									<img class="icon" alt="" src="images/c2.png" style="hight:220px;width:160px;" />
+						</span>
+						<h3>شركة المسار المحدودة</h3>
+							</div>
+				</div>
+				<div class="col-md-6 animate-box text-center" >
+					<div class="services">
+						<span class="icon">
+						<img class="icon" alt="" src="images/c1.png" style="hight:220px;width:160px;"/>
+						</span>
+						<h3>مجموعة الجهني التجارية</h3>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="colorlib-tour colorlib-light-grey" style="position:relative;top:-300px;z-index:4;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
+						<div class="image" style="position:relative;top:-100px;z-index:4;right:-300px;">
+							<img alt="" src="images/back.png" />
+							<div class="text2">
+							<h2>قائمة العروض المميزة</h2>
+
+							</div>
+						</div>
+					</div>
+				</br></br>
+				</div>
+			</div>
+			<div class="tour-wrap">
+				<a href="#" class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url(images/tour-1.png);">
+					</div>
+					<span class="desc">
+						<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> ٣٠٠ تقييم</p>
+						<h2>عرض ١</h2>
+						<span class="city">بيانات العرض</span>
+						<span class="price">١٠٠٠ريال</span>
+					</span>
+				</a>
+				<a href="#" class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url(images/tour-2.jpg);">
+					</div>
+					<span class="desc">
+						<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
+						<h2>عرض٢</h2>
+						<span class="city">بيانات العرض</span>
+						<span class="price">١٠٠٠ريال</span>
+					</span>
+				</a>
+				<a href="#" class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url(images/tour-3.jpg);">
+					</div>
+					<span class="desc">
+						<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
+						<h2>عرض٣</h2>
+						<span class="city">بيانات العرض</span>
+						<span class="price">١٠٠٠ريال</span>
+					</span>
+				</a>
+				<a href="#" class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url(images/tour-4.jpg);">
+					</div>
+					<span class="desc">
+						<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
+						<h2>عرض٤</h2>
+						<span class="city">بيانات العرض</span>
+						<span class="price">١٠٠٠ريال</span>
+					</span>
+				</a>
+				<a href="#" class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url(images/tour-1.png);">
+					</div>
+					<span class="desc">
+						<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
+						<h2>عرض٥</h2>
+						<span class="city">بيانات العرض</span>
+						<span class="price">١٠٠٠ريال</span>
+					</span>
+				</a>
+				<a href="#" class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url(images/tour-2.jpg);">
+					</div>
+					<span class="desc">
+						<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
+						<h2>عرض٦</h2>
+						<span class="city">بيانات العرض</span>
+						<span class="price">١٠٠٠ريال</span>
+					</span>
+				</a>
+				<a href="#" class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url(images/tour-3.jpg);">
+					</div>
+					<span class="desc">
+						<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
+						<h2>عرض٧</h2>
+						<span class="city">بيانات العرض</span>
+						<span class="price">١٠٠٠ريال</span>
+					</span>
+				</a>
+				<a href="#" class="tour-entry animate-box">
+					<div class="tour-img" style="background-image: url(images/tour-4.jpg);">
+					</div>
+					<span class="desc">
+						<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
+						<h2>عرض٨</h2>
+						<span class="city">بيانات العرض</span>
+						<span class="price">١٠٠٠ريال</span>
+					</span>
+				</a>
+			</div>
+		</div>
+
+
+
+		<div id="colorlib-blog" style="position:relative;top:-300px;z-index:4;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
+						<h2>جديد المدونة</h2>
+						</div>
+				</div>
+				<div class="blog-flex">
+					<div class="f-entry-img" style="background-image: url(images/blog-3.jpg);">
+					</div>
+					<div class="blog-entry aside-stretch-right">
+						<div class="row">
+							<div class="col-md-12 animate-box">
+								<a href="blog.html" class="blog-post">
+									<span class="img" style="background-image: url(images/blog-1.jpg);"></span>
+									<div class="desc">
+										<span class="date">١/ذو الحجة/١٤٤٠</span>
+										<h3>موضوع١</h3>
+										<span class="cat">النص</span>
+									</div>
+								</a>
+							</div>
+							<div class="col-md-12 animate-box">
+								<a href="blog.html" class="blog-post">
+									<span class="img" style="background-image: url(images/blog-2.jpg);"></span>
+									<div class="desc">
+										<span class="date">١٤/شعبان/١٤٤٠</span>
+										<h3>موضوع٢</h3>
+										<span class="cat">النص</span>
+									</div>
+								</a>
+							</div>
+							<div class="col-md-12 animate-box">
+								<a href="blog.html" class="blog-post">
+									<span class="img" style="background-image: url(images/blog-4.jpg);"></span>
+									<div class="desc">
+										<span class="date">٥/رجب/١٤٤٠</span>
+										<h3>موضوع٣</h3>
+										<span class="cat">النص</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div id="colorlib-hotel" style="position:relative;top:-200px;z-index:4;hight:100px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
+						<h2>عروض الفنادق</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box">
+						<div class="owl-carousel">
+							<div class="item">
+								<div class="hotel-entry">
+									<a href="hotels.html" class="hotel-img" style="background-image: url(images/hotel-1.jpg);">
+										<p class="price"><span>٥٠٠ريال</span><small> /الليلة</small></p>
+									</a>
+									<div class="desc">
+										<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> ٥٠٠ تقييم</p>
+										<h3><a href="#">اسم الفندق</a></h3>
+										<span class="place">المدينة والعنوان</span>
+										<p>نبذة</p>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="hotel-entry">
+									<a href="hotels.html" class="hotel-img" style="background-image: url(images/hotel-2.jpg);">
+										<p class="price"><span>٥٠٠ريال</span><small> /الليلة</small></p>
+									</a>
+									<div class="desc">
+										<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-empty"></i></span> ١٠٠ تقييم</p>
+										<h3><a href="#">اسم الفندق</a></h3>
+										<span class="place">المدينة والعنوان</span>
+										<p>نبذة</p>
+											</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="hotel-entry">
+									<a href="hotels.html" class="hotel-img" style="background-image: url(images/hotel-3.jpg);">
+										<p class="price"><span>ريال١٠٠٠</span><small> /الليلة</small></p>
+									</a>
+									<div class="desc">
+										<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i></i><i class="icon-star-full"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i></span> ٢٥٠ تقييم</p>
+										<h3><a href="#">اسم الفندق</a></h3>
+										<span class="place">المدينة والعنوان</span>
+										<p>نبذة</p>
+											</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="hotel-entry">
+									<a href="hotels.html" class="hotel-img" style="background-image: url(images/hotel-4.jpg);">
+										<p class="price"><span>٧٥٠</span><small> /الليلة</small></p>
+									</a>
+									<div class="desc">
+										<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i></span> 545 Reviews</p>
+										<h3><a href="#">اسم الفندق</a></h3>
+										<span class="place">المدينة والعنوان</span>
+										<p>نبذة</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-testimony" class="colorlib-light-grey">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
+						<h2>قالو عنا</h2>
+							<p>عبارة نصية</p>
+						</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 animate-box">
+						<div class="owl-carousel2">
+							<div class="item">
+								<div class="testimony text-center">
+									<span class="img-user" style="background-image: url(images/person1.jpg);"></span>
+									<span class="user">الاسم</span>
+									<small>نبذة تعريفية</small>
+									<blockquote>
+										<p>"النص"</p>
+									</blockquote>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony text-center">
+									<span class="img-user" style="background-image: url(images/person2.jpg);"></span>
+									<span class="user">الاسم</span>
+									<small>نبذة تعريفية</small>
+									<blockquote>
+										<p>"النص"</p>
+										</blockquote>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony text-center">
+									<span class="img-user" style="background-image: url(images/person3.jpg);"></span>
+									<span class="user">الاسم</span>
+									<small>نبذة تعريفية</small>
+									<blockquote>
+										<p>"النص"</p>
+									</blockquote>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div id="colorlib-subscribe" style="background-image: url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5" >
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
+						<h2>للإشتراك بالقائمة البريدية</h2>
+						<p>لتكن من أوائل المستفيدين من عروضنا</p>
+						<form class="form-inline qbstp-header-subscribe">
+							<div class="row">
+								<div class="col-md-12 col-md-offset-0">
+									<div class="form-group">
+										<input type="text" class="form-control" id="email" placeholder="ايميلك الإلكتروني" style="text-align:right;padding-right:70px;">
+										<button type="submit" class="btn btn-primary">إشتراك</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer id="colorlib-footer" role="contentinfo">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-3 colorlib-widget">
+						<h4 style="text-align: right;">للتواصل</h4>
+						<ul class="colorlib-footer-links" style="text-align: right;">
+							<li>المملكة العربية السعودية, <br> جدة،المحمدية</li>
+							<li><a href="tel://1234567920">+ 1235 2355 98</a></li>
+							<li><a href="mailto:info@yoursite.com">info@binazizumrah.com</a></li>
+							<li><a href="#">www.binazizumrah.com</a></li>
+						</ul>
+					</div>
+					<div class="col-md-2 colorlib-widget" style="text-align: right;">
+						<h4>احجز الآن</h4>
+						<p>
+							<ul class="colorlib-footer-links">
+								<li><a href="#">تذاكر طيران</a></li>
+								<li><a href="#">فنادق</a></li>
+								<li><a href="#">رحلات</a></li>
+								<li><a href="#">استئجار سيارات</a></li>
+							</ul>
+						</p>
+					</div>
+					<div class="col-md-2 colorlib-widget" style="text-align: right;">
+						<h4>جديد العروض</h4>
+						<p>
+							<ul class="colorlib-footer-links">
+								<li><a href="#">عرض١</a></li>
+								<li><a href="#">عرض٢</a></li>
+								<li><a href="#">عرض٣</a></li>
+								<li><a href="#">عرض٤</a></li>
+								<li><a href="#">عرض٥</a></li>
+							</ul>
+						</p>
+					</div>
+					<div class="col-md-2" style="text-align: right;">
+						<h4>المدونة</h4>
+						<ul class="colorlib-footer-links">
+							<li><a href="#">مقالة١</a></li>
+							<li><a href="#">مقالة٢</a></li>
+							<li><a href="#">مقالة٣</a></li>
+						</ul>
+					</div>
+
+
+
+					<div class="col-md-3 colorlib-widget" style="text-align: right;">
+					<h4 >بن عزيز عمرة</h4>
+						<p>شاركنا آرائك ومقترحاتك على حساباتنا في مواقع التواصل</p>
+						<p>
+							<ul class="colorlib-social-icons">
+								<li><a href="https://twitter.com/binazizUmrah"><i class="icon-twitter"></i></a></li>
+								<li><a href="https://www.facebook.com/profile.php?id=100024799041658"><i class="icon-facebook"></i></a></li>
+								<li><a href="https://www.instagram.com/binazizumrah/"><i class="icon-instagram"></i></a></li>
+							</ul>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<p>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart2" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+							<span class="block">Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a> , <a href="http://pexels.com/" target="_blank">Pexels.com</a></span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Date Picker -->
+	<script src="js/bootstrap-datepicker.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
